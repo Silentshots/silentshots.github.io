@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SilentBot – Помічник онлайн</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1em;
+      font-size: 1.5em;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+    .menu a {
+      display: block;
+      background-color: #fff;
+      border: 2px solid #444;
+      border-radius: 10px;
+      padding: 15px;
+      text-decoration: none;
+      color: #222;
+      font-size: 1.2em;
+      transition: background-color 0.3s ease;
+    }
+    .menu a:hover {
+      background-color: #ddd;
+    }
+    .cta {
+      margin-top: 30px;
+      background-color: #007bff;
+      color: white;
+      font-size: 1.4em;
+      padding: 15px;
+      border-radius: 12px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .cta:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    section {
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <header>👋 Ласкаво просимо до SilentBot</header>
+
+  <div class="menu">
+    <a href="#court">⚖️ Судові документи</a>
+    <a href="#executor">📄 Виконавча служба</a>
+    <a href="#vrp">🏛️ Вища рада правосуддя</a>
+    <a href="#samples">📝 Зразки заяв</a>
+    <a href="#consult">📬 Консультація</a>
+  </div>
+
+  <a href="#start" class="cta">🚀 Почати роботу</a>
+
+  <section id="court">
+    <h2>⚖️ Судові документи</h2>
+    <p>Тут ви можете дізнатися, як подати документи до суду онлайн, які файли потрібні, та як все правильно оформити через Електронний суд.</p>
+  </section>
+
+  <section id="executor">
+    <h2>📄 Виконавча служба</h2>
+    <p>Інструкції, заяви та поради щодо роботи з виконавчим провадженням. Зразки: "заява про рахунок для видаткових операцій" тощо.</p>
+  </section>
+
+  <section id="vrp">
+    <h2>🏛️ Вища рада правосуддя</h2>
+    <p>Як подати скаргу на суддю або дії суду. Алгоритм + шаблони скарг, електронна подача та підказки.</p>
+  </section>
+
+  <section id="samples">
+    <h2>📝 Зразки заяв</h2>
+    <p>Завантажити шаблони документів у PDF або Word. Наприклад: скарга до суду, клопотання, заява до ДВС, пояснення.</p>
+  </section>
+
+  <section id="consult">
+    <h2>📬 Консультація</h2>
+    <p>Щоб отримати безкоштовну пораду — напишіть боту <strong>@LankofHelperBot</strong> або скористайтесь формою зв’язку (додамо пізніше).</p>
+  </section>
+
+  <section id="start">
+    <h2>🚀 Почати роботу</h2>
+    <p>Підключайся до Telegram-бота або надсилай свій запит через кнопку нижче:</p>
+    <p><a class="cta" href="https://t.me/LankofHelperBot">Перейти в бот</a></p>
+  </section>
+
+  <footer>
+    <p>SilentBot © 2025 | Оплата: 5355 2800 4221 6083 | Telegram: @LankofHelperBot</p>
+  </footer>
+</body>
+</html>
